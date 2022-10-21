@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,80");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bg-img {
+  background: url("./assets/IMAGE.png");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 2100px;
+}
+.bg-img > div {
+  height: 2100px;
+  background: rgba(12, 12, 12, 0.362);
+}
+.header-text {
+  padding-top: 40px;
+  height: 200px;
+  text-align: center;
+}
+.header-text ul {
+  color: #fff;
+  list-style-type: none;
+  margin: 50px auto;
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+ul li:hover {
+  cursor: pointer;
+  border-bottom: 1px solid #fff;
+}
+.about-travel {
+  padding: 4%;
+  background: url("./assets/travel.png");
+  background-size: 100% 100%;
+  max-width: 800px;
+  height: 330px;
+  margin: 0px auto 0 auto;
+}
+.about-travel > div > div {
+  display: flex;
+  color: #fff;
+  font-family: "Montserrat";
+  margin-top: 100px;
+}
+.about-travel > div > div > img {
+  margin-right: 15px;
+}
+.about-travel h3 {
+  font-weight: 400;
+  font-size: 18px;
+}
+.about-travel p {
+  font-weight: 400;
+  font-size: 13px;
+}
+.about-travel h2 {
+  max-width: 470px;
+  margin-top: 15px;
+  font-size: 28px;
+  line-height: 35px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+/* ------------------------------------------- */
+.taking-photo {
+  padding: 4%;
+  background: url("./assets/taking-photo-bg.png");
+  background-size: 100% 100%;
+  max-width: 800px;
+  height: 330px;
+  margin: 0px auto 0 auto;
+}
+.taking-photo > div > div {
+  display: flex;
+  color: #fff;
+  font-family: "Montserrat";
+  margin-top: 100px;
+}
+.taking-photo > div > div > img {
+  margin-right: 15px;
+}
+.taking-photo h3 {
+  font-weight: 400;
+  font-size: 18px;
+}
+.taking-photo p {
+  font-weight: 400;
+  font-size: 13px;
+}
+.taking-photo h2 {
+  width: 470px;
+  margin-top: 15px;
+  font-size: 28px;
+  line-height: 35px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+.vacancy {
+  padding: 4%;
+  background: url("./assets/vacancy.png");
+  background-size: 100% 100%;
+  max-width: 800px;
+  height: 330px;
+  margin: 0px auto 0 auto;
+}
+.vacancy > div > div {
+  display: flex;
+  color: #fff;
+  font-family: "Montserrat";
+  margin-top: 100px;
+}
+.vacancy > div > div > img {
+  margin-right: 15px;
+}
+.vacancy h3 {
+  font-weight: 400;
+  font-size: 18px;
+}
+.vacancy p {
+  font-weight: 400;
+  font-size: 13px;
+}
+.vacancy h2 {
+  width: 470px;
+  margin-top: 15px;
+  font-size: 28px;
+  line-height: 35px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+.as-btn {
+  background: rgba(0, 0, 0, 0.2);
+  float: right;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 8px;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  padding: 7px;
+  margin-top: -40px;
+  margin-right: -25px;
+}
+
+/* ---------------------------------------------- */
+.read-travel {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 18px;
+  padding: 2.5% 3%;
+  margin: auto;
+  max-width: 800px;
+  background-color: #fff;
+}
+.read-travel p {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.read-taking-photo {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 18px;
+  padding: 2.5% 3%;
+  margin: auto;
+  max-width: 800px;
+  background-color: #fff;
+}
+.read-taking-photo p {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.vacancy-read {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 18px;
+  padding: 2.5% 3%;
+  margin: auto;
+  max-width: 800px;
+  background-color: #fff;
+}
+.vacancy-read p {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.read-more {
+  font-family: "Montserrat";
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  background-color: #f1f1f1;
+  height: 221px;
+  padding-top: 40px;
+}
+.read-more h1 {
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.read-more button {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 10px;
+  background-color: #8d4fdb;
+  padding: 2% 3%;
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.stories {
+  text-align: center;
+}
+.stories h1 {
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: 400;
+  margin: 85px 0 30px 0;
+}
+.stories h1 + p {
+  margin-bottom: 50px;
+  font-family: "Lato";
+  font-size: 23px;
+  font-weight: 400;
+  color: #a9afb3;
+}
+.cards {
+  margin: 0 auto 60px auto;
+  display: flex;
+  max-width: 930px;
+  justify-content: space-between;
+}
+.cards + p {
+  margin-bottom: 90px;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Lato";
+  font-style: normal;
+  line-height: 30px;
+}
+/* ------------------------------------- */
+.card:nth-child(1) > div {
+  padding: 45% 0% 7% 7%;
+  max-width: 300px;
+  height: 190px;
+  background-image: url("./assets/stories-img1.png");
+}
+.card:nth-child(2) > div {
+  padding: 45% 0% 7% 7%;
+  max-width: 300px;
+  height: 190px;
+  background-image: url("./assets/stories-img2.png");
+}
+.card:nth-child(3) > div {
+  padding: 45% 0% 7% 7%;
+  max-width: 300px;
+  height: 190px;
+  background-image: url("./assets/stories-img3.png");
+}
+.card > div > span {
+  display: flex;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Montserrat";
+}
+.card > div > span img {
+  margin-right: 10px;
+}
+.card > p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Montserrat";
+  max-width: 280px;
+  text-align: left;
+  margin-top: 23px;
+}
+footer {
+  background: #000000;
+  height: 166px;
+  text-align: center;
+  padding-top: 35px;
+}
+footer p {
+  margin: 30px auto 0px auto;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Lato";
+  color: #8b8b8b;
+}
+a {
+  text-decoration: none;
+}
